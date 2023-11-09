@@ -76,6 +76,7 @@
         app:layout_constraintVertical_bias="0.106" />
 
     <TableLayout
+        android:id="@+id/tableLayout"
         android:layout_width="340dp"
         android:layout_height="423dp"
         app:layout_constraintBottom_toTopOf="@+id/button5"
@@ -108,6 +109,34 @@
         android:layout_height="26dp"
         android:ems="10"
         android:inputType="number"
-        tools:layout_editor_absoluteX="282dp"
-        tools:layout_editor_absoluteY="549dp" />
+        app:layout_constraintBottom_toTopOf="@+id/button5"
+        app:layout_constraintTop_toBottomOf="@+id/tableLayout"
+        app:layout_constraintVertical_bias="0.134"
+        tools:layout_editor_absoluteX="291dp" />
+
+    <EditText
+        android:id="@+id/editTextNumber2"
+        android:layout_width="79dp"
+        android:layout_height="35dp"
+        android:ems="10"
+        android:inputType="number"
+        app:layout_constraintBottom_toTopOf="@+id/button5"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.885"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editTextNumber"
+        app:layout_constraintVertical_bias="0.222" />
+
+    <EditText
+        android:id="@+id/editTextNumber3"
+        android:layout_width="82dp"
+        android:layout_height="23dp"
+        android:ems="10"
+        android:inputType="number"
+        app:layout_constraintBottom_toTopOf="@+id/button5"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.884"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tableLayout"
+        app:layout_constraintVertical_bias="0.39" />
 </androidx.constraintlayout.widget.ConstraintLayout>
