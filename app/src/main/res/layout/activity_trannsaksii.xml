@@ -104,6 +104,7 @@
     </TableLayout>
 
     <EditText
+        android:background="?attr/selectableItemBackground"
         android:id="@+id/editTextNumber"
         android:layout_width="81dp"
         android:layout_height="26dp"
@@ -115,6 +116,7 @@
         tools:layout_editor_absoluteX="291dp" />
 
     <EditText
+        android:background="?attr/selectableItemBackground"
         android:id="@+id/editTextNumber2"
         android:layout_width="79dp"
         android:layout_height="35dp"
@@ -128,6 +130,7 @@
         app:layout_constraintVertical_bias="0.222" />
 
     <EditText
+        android:background="?attr/selectableItemBackground"
         android:id="@+id/editTextNumber3"
         android:layout_width="82dp"
         android:layout_height="23dp"

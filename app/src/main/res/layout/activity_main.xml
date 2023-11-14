@@ -6,16 +6,6 @@
     android:layout_height="match_parent"
     tools:context=".MainActivity">
 
-    <ImageView
-        android:id="@+id/imageView4"
-        android:layout_width="459dp"
-        android:layout_height="787dp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@drawable/master" />
-
     <Button
         android:background="?attr/selectableItemBackground"
         android:id="@+id/button6"
@@ -53,6 +43,7 @@
         app:layout_constraintTop_toBottomOf="@+id/button7" />
 
     <SearchView
+        android:id="@+id/searchView2"
         android:layout_width="284dp"
         android:layout_height="40dp"
         app:layout_constraintBottom_toTopOf="@+id/button6"
@@ -61,5 +52,16 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.087" />
+
+    <ImageView
+        android:id="@+id/imageView6"
+        android:layout_width="478dp"
+        android:layout_height="801dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.341"
+        app:srcCompat="@drawable/master" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
