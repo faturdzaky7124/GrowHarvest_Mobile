@@ -13,6 +13,12 @@
         android:theme="@style/Theme.Goharvest"
         tools:targetApi="31">
         <activity
+            android:name=".databarang"
+            android:exported="false" />
+        <activity
+            android:name=".data_barang"
+            android:exported="false" />
+        <activity
             android:name=".trannsaksii"
             android:exported="false" />
         <activity
