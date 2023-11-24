@@ -13,6 +13,12 @@
         android:theme="@style/Theme.Goharvest"
         tools:targetApi="31">
         <activity
+            android:name=".ui.navbarActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ui.HomeActivity"
+            android:exported="false" />
+        <activity
             android:name=".databarang"
             android:exported="false" />
         <activity
